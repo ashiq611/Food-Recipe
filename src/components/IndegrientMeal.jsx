@@ -33,7 +33,6 @@ const IndegrientMeal = ({data}) => {
               <iframe
                 className="w-full h-96"
                 src={strYoutube}
-                frameborder="0"
               ></iframe>
               <div className="w-full flex justify-between">
                 <button className="btn">
