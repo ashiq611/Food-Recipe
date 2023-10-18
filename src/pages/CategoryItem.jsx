@@ -28,7 +28,9 @@ const CategoryItem = () => {
                   <h2 className="card-title">{i.strMeal}</h2>
                   {/* <p>{props.data?.strCategoryDescription}</p> */}
                   <div className="card-actions justify-end">
-                    <Link className="btn btn-primary">Show</Link>
+                    <Link to={`/${id.id}/${i.idMeal}`} className="btn btn-primary">
+                      Show
+                    </Link>
                   </div>
                 </div>
               </div>
