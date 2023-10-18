@@ -26,7 +26,9 @@ const CountryFoodItem = () => {
               <h2 className="card-title">{food.strMeal}</h2>
 
               <div className="card-actions justify-end">
-                <Link className="btn btn-primary">Show</Link>
+                <Link to={`/${id.id}/${food.idMeal}`} className="btn btn-primary">
+                  Show
+                </Link>
               </div>
             </div>
           </div>

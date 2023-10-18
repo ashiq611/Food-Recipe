@@ -8,6 +8,7 @@ import Kanye from './pages/Kanye';
 import CategoryItem from './pages/CategoryItem';
 import CountryFood from './pages/CountryFood';
 import CountryFoodItem from './pages/CountryFoodItem';
+import Indegrient from './pages/Indegrient';
 
 
 function App() {
@@ -37,6 +38,11 @@ function App() {
         {
           path: "countryFood/:id",
           element: <CountryFoodItem />,
+        },
+        {
+          path: "/:id/:type",
+          element: <Indegrient/>,
+
         },
         {
           path: "kanye",
