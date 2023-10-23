@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Meal = (props) => {
@@ -12,7 +13,7 @@ const Meal = (props) => {
             <h2 className="card-title">{props.data?.strMeal}</h2>
             <p>{props.data?.strInstructions}</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <Link className="btn btn-primary">Buy Now</Link>
             </div>
           </div>
         </div>
